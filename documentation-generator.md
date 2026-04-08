@@ -2,6 +2,8 @@ Generate complete, professional documentation for this project.
 Work through every section. Every doc should be accurate to the 
 current codebase — not aspirational, not copy-pasted from a template.
 
+Start by removing all project markdown files. Then:
+
 ═══════════════════════════════════════════════════════════════
 SECTION 1: README.md
 ═══════════════════════════════════════════════════════════════
@@ -16,8 +18,6 @@ SECTION 1: README.md
    - All make/docker commands with descriptions
    - Environment variables table (name, description, required, default)
    - Project structure overview
-   - Contributing guidelines (brief)
-   - License
 
    Test every command in the README yourself. If it fails, fix it.
 
@@ -82,23 +82,15 @@ SECTION 5: DEVELOPER ONBOARDING
    - Git workflow (branching, PRs, commit messages)
    - Where to find things (which file does what)
 
-═══════════════════════════════════════════════════════════════
-SECTION 6: CHANGELOG
-═══════════════════════════════════════════════════════════════
-
-6. Generate CHANGELOG.md from git history:
-   - Group by date or version
-   - Categories: Added, Changed, Fixed, Removed
-   - Write for users, not developers
-   - Include breaking changes prominently
 
 ═══════════════════════════════════════════════════════════════
-SECTION 7: VALIDATION
+SECTION 6: VALIDATION
 ═══════════════════════════════════════════════════════════════
 
-7. Verify all documentation:
+6. Verify all documentation:
    - Every code example runs correctly
    - Every curl example returns the documented response
    - Every setup step works on a clean environment
    - No references to files or endpoints that don't exist
    - No placeholder text left (TODO, TBD, lorem ipsum)
+
