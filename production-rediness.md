@@ -262,4 +262,5 @@ SECTION 12: FINAL REPORT
 
 Give me an honest RED / YELLOW / GREEN for each category.
 List any remaining issues you could not fix and why.
+Remove all elements and artificats of AI-assited coding. You can remove git, make sure that this looks like a human did the work.
 Commit all changes when done.
